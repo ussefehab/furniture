@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 0.4rem #b88f2f97; */
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 130rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+  /* position: relative; */
+}
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #f5f5f5;
+  border-radius: none;
+}
+
+/* Define the track color */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* Define the thumb color */
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+/* Define the thumb hover color */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b88e2f;
+}
+a {
+  text-decoration: none;
+}
+.contact:link,
+.contact:visited,
+.home:link,
+.home:visited,
+.about:link,
+.about:visited,
+.shop:link,
+.shop:visited {
+  color: #222;
+  font-size: 1.6rem;
+}
+.contact:hover,
+.contact:active,
+.home:hover,
+.home:active,
+.about:hover,
+.about:active,
+.shop:hover,
+.shop:active {
+  color: #b88e2f;
+  transition: all 0.4s;
+}
+.heading-primary {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #b88e2f;
+  line-height: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #b88e2f;
+  color: #fff;
+  padding: 1.125rem 4.5rem;
+  font-size: 1.4rem;
+}
+.btn:hover,
+.btn:active {
+  background-color: #815b03fc;
+  color: #fff;
+  transition: all 0.4s;
+}
+.text-container {
+  text-align: center;
+}
+
+.secondary-heading {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #3a3a3a;
+  text-align: center;
+}
+.secondary-heading-describtion {
+  color: #666;
+  font-size: 1.2rem;
+}
+.gray-text {
+  color: #898989;
+  line-height: 2.2rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.btn-border:link,
+.btn-border:visited {
+  display: inline-block;
+  background-color: #fff;
+
+  color: #b88e2f;
+  border: 1px solid #b88e2f;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 6.4rem;
+}
+.btn-border:hover,
+.btn-border:active {
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #b88e2f;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 6.4rem;
+  transition: all 0.3s;
+}
+.btn-center {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+li {
+  list-style: none;
+}
+.margin--mb {
+  margin-bottom: 3.2rem;
+}
